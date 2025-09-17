@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SecureBank - Your Trusted Financial Partner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="https://static.vecteezy.com/system/resources/previews/013/948/616/non_2x/bank-icon-logo-design-vector.jpg" alt="SecureBank Logo">
+                <span>SecureBank</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#faq" class="nav-link">FAQ</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Welcome to SecureBank</h1>
+            <p class="hero-subtitle">Your trusted financial partner for a secure future</p>
+            <button class="cta-button" onclick="scrollToContact()">Get Started Today</button>
+        </div>
+        <div class="hero-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About SecureBank</h2>
+                    <p>With over 50 years of experience in the banking industry, SecureBank has been serving customers with dedication and trust. We provide comprehensive financial solutions tailored to meet your unique needs.</p>
+                    <p>Our commitment to excellence and customer satisfaction has made us one of the leading banks in the region. We combine traditional banking values with modern technology to deliver exceptional service.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>500K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Years Experience</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100+</h3>
+                            <p>Branches</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://media.istockphoto.com/id/1540766455/photo/customers-with-phones-wait-in-line-to-see-bank-teller.jpg?s=612x612&w=0&k=20&c=XaDQp_T261Ufd3QupuHjqt3IpMwM8yknZZfZFSSUEk0=" alt="About Us">
+                </div>
+            </div>
+            
+            <!-- Staff Section -->
+            <div class="staff-section">
+                <h2>Our Team</h2>
+                <div class="staff-grid">
+                    <div class="staff-card">
+                        <img src="https://adoptostaging.blob.core.windows.net/media/director-of-operations-job-description-template-CmLcwy.jpg" alt="John Smith">
+                        <h3>John Smith</h3>
+                        <p>CEO & President</p>
+                        <div class="staff-contact">
+                            <a href="mailto:john.smith@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567890"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzbblx9HKnoboReUKSPgiHQAfpK3wtnCz9L2oHFitpMePe93E8R5AprukgY-1NZPDeGU&usqp=CAU" alt="Sarah Johnson">
+                        <h3>Sarah Johnson</h3>
+                        <p>Chief Financial Officer</p>
+                        <div class="staff-contact">
+                            <a href="mailto:sarah.johnson@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567891"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://www.dillard.edu/wp-content/uploads/online654820278.jpg" alt="Michael Brown">
+                        <h3>Michael Brown</h3>
+                        <p>Head of Operations</p>
+                        <div class="staff-contact">
+                            <a href="mailto:michael.brown@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567892"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://img.freepik.com/premium-photo/professional-female-manager-walking-modern-office-district_35674-13442.jpg" alt="Emily Davis">
+                        <h3>Emily Davis</h3>
+                        <p>Customer Relations Manager</p>
+                        <div class="staff-contact">
+                            <a href="mailto:emily.davis@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567893"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB5v7h_gAoH2l1ruxgMh2W639sybTg0c-tNg&s" alt="David Wilson">
+                        <h3>David Wilson</h3>
+                        <p>Loan Officer</p>
+                        <div class="staff-contact">
+                            <a href="mailto:david.wilson@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567894"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://www.talentedladiesclub.com/site/wp-content/uploads/The-female-investor-Practical-advice-for-women-in-real-estate.jpg" alt="Lisa Anderson">
+                        <h3>Lisa Anderson</h3>
+                        <p>Investment Advisor</p>
+                        <div class="staff-contact">
+                            <a href="mailto:lisa.anderson@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567895"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://www.yourfreecareertest.com/wp-content/uploads/2017/10/security_manager.jpg" alt="Robert Taylor">
+                        <h3>Robert Taylor</h3>
+                        <p>Security Manager</p>
+                        <div class="staff-contact">
+                            <a href="mailto:robert.taylor@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567896"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://thumbs.dreamstime.com/b/business-woman-office-crossed-arms-portrait-37199967.jpg" alt="Jennifer Martinez">
+                        <h3>Jennifer Martinez</h3>
+                        <p>Branch Manager</p>
+                        <div class="staff-contact">
+                            <a href="mailto:jennifer.martinez@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567897"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://s44783.pcdn.co/in/wp-content/uploads/sites/3/2022/06/it-manager-salary.jpg.optimal.jpg" alt="James Garcia">
+                        <h3>James Garcia</h3>
+                        <p>IT Director</p>
+                        <div class="staff-contact">
+                            <a href="mailto:james.garcia@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567898"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://media.istockphoto.com/id/1444490639/photo/confident-businesswoman-in-modern-office.jpg?s=612x612&w=0&k=20&c=wYmNX1unD4BjM8MYf2I5EUNiVNMvdCzMJ_tGMsQ3SLQ=" alt="Amanda Rodriguez">
+                        <h3>Amanda Rodriguez</h3>
+                        <p>Marketing Director</p>
+                        <div class="staff-contact">
+                            <a href="mailto:amanda.rodriguez@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567899"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://www.diligent.com/_next/image?url=https%3A%2F%2Fcdn.sanity.io%2Fimages%2F33u1mixi%2Fproduction%2Fb6036b7f10db42c6809cbfa5ada9c98b5ce4880c-2400x1600.jpg&w=2048&q=75" alt="Thomas Lee">
+                        <h3>Thomas Lee</h3>
+                        <p>Risk Management</p>
+                        <div class="staff-contact">
+                            <a href="mailto:thomas.lee@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567800"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                    <div class="staff-card">
+                        <img src="https://www.signaturit.com/wp-content/uploads/2023/11/172-NEW-blog-banners-1-1.jpg" alt="Michelle White">
+                        <h3>Michelle White</h3>
+                        <p>Compliance Officer</p>
+                        <div class="staff-contact">
+                            <a href="mailto:michelle.white@securebank.com"><i class="fas fa-envelope"></i></a>
+                            <a href="tel:+1234567801"><i class="fas fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=300&h=200&fit=crop" alt="Accounts">
+                    <div class="service-content">
+                        <h3>Banking Accounts</h3>
+                        <p>Comprehensive banking solutions for all your financial needs.</p>
+                        <div class="service-details">
+                            <p>Our banking accounts offer competitive interest rates, no hidden fees, and 24/7 online access. Choose from savings accounts, checking accounts, and premium accounts tailored to your lifestyle.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://wpblogassets.paytm.com/paytmblog/uploads/2023/08/Blog_Paytm_Business-Loan-or-Personal-Loan-Which-One-Should-You-Choose_-800x500.jpg" alt="Loans">
+                    <div class="service-content">
+                        <h3>Personal & Business Loans</h3>
+                        <p>Flexible loan options with competitive rates and quick approval.</p>
+                        <div class="service-details">
+                            <p>Whether you need a personal loan for your dreams or business financing for growth, we offer customized solutions with flexible repayment terms and competitive interest rates.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=300&h=200&fit=crop" alt="Industrial Services">
+                    <div class="service-content">
+                        <h3>Industrial Services</h3>
+                        <p>Specialized financial services for industrial and corporate clients.</p>
+                        <div class="service-details">
+                            <p>Our industrial banking services include trade finance, working capital solutions, equipment financing, and treasury management services designed for large-scale operations.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.bankrate.com/2020/03/12132151/Untitled-73.jpeg?auto=webp&optimize=high&crop=16:9" alt="Credit Cards">
+                    <div class="service-content">
+                        <h3>Credit Cards</h3>
+                        <p>Premium credit cards with rewards and exclusive benefits.</p>
+                        <div class="service-details">
+                            <p>Enjoy cashback rewards, travel benefits, and exclusive perks with our range of credit cards. From student cards to platinum rewards cards, find the perfect match for your spending habits.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://wpblogassets.paytm.com/paytmblog/uploads/2023/10/Blog_Paytm_Mortgage-Loan-How-to-Apply-Interest-Rate-1.jpg" alt="Mortgages">
+                    <div class="service-content">
+                        <h3>Home Mortgages</h3>
+                        <p>Make your dream home a reality with our mortgage solutions.</p>
+                        <div class="service-details">
+                            <p>Get pre-approved for your home loan with competitive rates and flexible terms. Our mortgage specialists will guide you through the entire process from application to closing.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://img3.exportersindia.com/product_images/bc-full/2023/1/11556839/investment-services-1673247566-6710086.jpeg" alt="Investment Services">
+                    <div class="service-content">
+                        <h3>Investment Services</h3>
+                        <p>Grow your wealth with our professional investment guidance.</p>
+                        <div class="service-details">
+                            <p>Our certified financial advisors help you build a diversified portfolio with stocks, bonds, mutual funds, and retirement planning services tailored to your risk tolerance and goals.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://img.freepik.com/premium-photo/mobile-online-banking-concept_12892-62.jpg" alt="Online Banking">
+                    <div class="service-content">
+                        <h3>Online & Mobile Banking</h3>
+                        <p>Bank anytime, anywhere with our digital banking platform.</p>
+                        <div class="service-details">
+                            <p>Access your accounts 24/7, transfer funds, pay bills, deposit checks, and manage your finances with our secure online and mobile banking applications.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://cdn.hibuwebsites.com/3a0a85e3a7f44d0e893073f478f4276f/dms3rep/multi/RSshutterstock_552938830.jpg" alt="Insurance">
+                    <div class="service-content">
+                        <h3>Insurance Services</h3>
+                        <p>Protect what matters most with comprehensive insurance coverage.</p>
+                        <div class="service-details">
+                            <p>From life and health insurance to auto and home coverage, our insurance partners provide comprehensive protection plans to safeguard your family and assets.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="https://www.thegainers.in/wp-content/uploads/2024/04/wealth-management-services.jpg" alt="Wealth Management">
+                    <div class="service-content">
+                        <h3>Wealth Management</h3>
+                        <p>Exclusive wealth management services for high-net-worth clients.</p>
+                        <div class="service-details">
+                            <p>Our private banking team offers personalized wealth management, estate planning, tax optimization, and exclusive investment opportunities for our premium clients.</p>
+                        </div>
+                        <button class="read-more-btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section id="process" class="process">
+        <div class="container">
+            <h2>Our Banking Process</h2>
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Consultation</h3>
+                        <p>Meet with our financial experts to discuss your needs and goals.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Documentation</h3>
+                        <p>Provide necessary documents for account opening or loan application.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Verification</h3>
+                        <p>Our team verifies your information and processes your application.</p>
+                    </div>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Approval</h3>
+                        <p>Receive approval and access to your new banking services.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonials-container">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"SecureBank has been my trusted financial partner for over 10 years. Their customer service is exceptional!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>John Doe</h4>
+                                <span>Business Owner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The loan approval process was quick and hassle-free. I highly recommend SecureBank to everyone."</p>
+                        <div class="testimonial-author">
+                            <img src="https://www.future-doctor.de/wp-content/uploads/2024/08/shutterstock_2480850611.jpg" alt="Customer">
+                            <div>
+                                <h4>Jane Smith</h4>
+                                <span>Teacher</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Their online banking platform is user-friendly and secure. Banking has never been easier!"</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Mike Johnson</h4>
+                                <span>Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Professional staff and excellent investment advice. My portfolio has grown significantly."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Sarah Wilson</h4>
+                                <span>Investor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"SecureBank's mobile app is fantastic. I can manage all my accounts on the go."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>David Brown</h4>
+                                <span>Marketing Manager</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"The customer support team is always helpful and responds quickly to my queries."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Lisa Davis</h4>
+                                <span>Freelancer</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Great interest rates on savings accounts and transparent fee structure."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Robert Taylor</h4>
+                                <span>Retired</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Their business banking solutions helped my company grow and manage finances better."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Jennifer Martinez</h4>
+                                <span>CEO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Excellent mortgage rates and the process was smooth from start to finish."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>James Garcia</h4>
+                                <span>Homeowner</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"SecureBank's financial advisors are knowledgeable and always available for guidance."</p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=60&h=60&fit=crop&crop=face" alt="Customer">
+                            <div>
+                                <h4>Amanda Rodriguez</h4>
+                                <span>Doctor</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What documents do I need to open an account?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You'll need a valid government-issued ID, proof of address (utility bill or lease agreement), and Social Security number. For business accounts, additional documentation such as business license and tax ID may be required.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I access my account online?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>You can access your account through our secure online banking platform or mobile app. Simply register with your account number and follow the setup process. You'll receive login credentials via secure email.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your loan interest rates?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our loan interest rates vary based on the type of loan, credit score, and current market conditions. Personal loans start from 5.99% APR, while mortgage rates are currently starting from 3.25% APR. Contact us for personalized rates.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Is my money insured with SecureBank?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, all deposits are insured by the FDIC up to $250,000 per depositor, per insured bank. This means your money is protected even in the unlikely event of bank failure.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I contact customer support?</h3>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Our customer support is available 24/7 through phone at 1-800-SECURE-BANK, live chat on our website, or email at support@securebank.com. You can also visit any of our branch locations during business hours.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to start your banking journey with us? We're here to help you every step of the way.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-info-header">
+                        <h3><i class="fas fa-headset"></i> Contact Information</h3>
+                        <p>Reach out to us through any of these channels</p>
+                    </div>
+                    <div class="contact-cards">
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Our Branch</h4>
+                                <p>123 Banking Street<br>Financial District<br>New York, NY 10001</p>
+                                <span class="contact-hours">Mon-Fri: 9AM-5PM</span>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Call Us</h4>
+                                <p><a href="tel:+18007328732">1-800-SECURE-BANK</a><br><span class="phone-number">(1-800-732-8732)</span></p>
+                                <span class="contact-hours">24/7 Customer Support</span>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:info@securebank.com">info@securebank.com</a><br><a href="mailto:support@securebank.com">support@securebank.com</a></p>
+                                <span class="contact-hours">Response within 24 hours</span>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="contact-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Live Chat</h4>
+                                <p>Chat with our support team<br>for instant assistance</p>
+                                <button class="chat-btn">Start Chat</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-section">
+                    <div class="form-header">
+                        <h3><i class="fas fa-paper-plane"></i> Send Us a Message</h3>
+                        <p>Fill out the form below and we'll get back to you as soon as possible</p>
+                    </div>
+                    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xkgzzrqw" method="POST">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name"><i class="fas fa-user"></i> Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="fas fa-envelope"></i> Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone"><i class="fas fa-phone"></i> Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject"><i class="fas fa-tag"></i> Subject</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="Account Opening">Account Opening</option>
+                                    <option value="Loan Inquiry">Loan Inquiry</option>
+                                    <option value="Investment Services">Investment Services</option>
+                                    <option value="Customer Support">Customer Support</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"><i class="fas fa-comment-alt"></i> Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us how we can help you..." rows="6" required></textarea>
+                        </div>
+                        <div class="form-footer">
+                            <div class="privacy-notice">
+                                <i class="fas fa-shield-alt"></i>
+                                <span>Your information is secure and will never be shared with third parties.</span>
+                            </div>
+                            <button type="submit" class="submit-btn" id="submitBtn">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    
+                    <!-- Success Message Modal -->
+                    <div class="success-modal" id="successModal">
+                        <div class="success-modal-content">
+                            <div class="success-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </div>
+                            <h3>Message Sent Successfully!</h3>
+                            <p>Thanks for messaging us, we will contact you soon.</p>
+                            <button class="ok-btn" id="okBtn">
+                                <i class="fas fa-thumbs-up"></i>
+                                OK
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+                <p class="footer-credit">Designed and developed by Mridul Sikder.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
